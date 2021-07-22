@@ -1,12 +1,38 @@
 /*------------------------------- Font Using ---------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
-h1{
-    font-size: 50px;
-    text-align: center;
-    background-image: linear-gradient(skyblue, lightsalmon);
-    color: whitesmoke;
+header{
+    background-color: rgb(71, 71, 245);
+    margin: 0;
 }
+.banner-flex{
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.banner{
+    width: 50%;
+    margin-left: 50px;
+}
+.banner img{
+    width: 75%;
+}
+.banner-text{
+    width: 45%;
+    margin-left: 100px;
+    font-size: 30px;
+    color: white;
+}
+.banner-text a{
+    background-color:rgb(226, 36, 140);
+    text-decoration: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+#live-button{
+    font-weight: 100;
+
 /*----------------------- Common Style  or Utiliteis --------------------------------*/
 body{
     font-family: 'Poppins', sans-serif;
