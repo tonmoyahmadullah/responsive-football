@@ -33,7 +33,7 @@ header{
 #live-button{
     font-weight: 100;
 }
-/*----------------------- Common Style  or Utiliteis --------------------------------*/
+/*----------------------- Common Style  or Utilities --------------------------------*/
 body{
     font-family: 'Poppins', sans-serif;
     background-color: rgba(170, 170, 170, 0.384);
@@ -41,6 +41,7 @@ body{
 .container{
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 /*---------------------------------- Players ----------------------------------------*/
 .players{
